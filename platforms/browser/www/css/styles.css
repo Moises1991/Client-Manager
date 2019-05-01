@@ -1,0 +1,129 @@
+/* Fichero de estilos */
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(90, 90, 90);
+}
+
+table.dataTable {
+    width:100%;
+    margin: 0px !important;
+}
+
+/* Estilos de las tablas */
+table.dataTable,
+table.dataTable thead tr th,
+table.dataTable tbody tr td {
+    border: 0px;
+}
+
+table.dataTable thead tr {
+    color: white;
+    background-color: rgb(80, 200, 80)
+}
+
+table.dataTable tbody tr.odd {
+    background-color: rgb(220, 235, 220)
+}
+
+table.dataTable tbody tr.even {
+    background-color: rgb(200, 235, 200)
+}
+
+.tab-content,
+table.dataTable.fixedHeader-floating {
+    margin-top: 58px !important;
+}
+
+.btn-tabla {
+    padding: 0px;
+    font-size: 21px;
+}
+
+.col-acciones {
+    padding: 7px 12px !important;
+    text-align: right !important;
+}
+
+.color-orange {
+    color: #d8a456;
+}
+.color-violet {
+    color: #b743c2;
+}
+.color-sky {
+    color: #3ba5b3;
+}
+.color-green {
+    color: #8cbb40;
+}
+
+/* Estilos menú */
+.navbar-brand {
+    padding-top: 0px;
+}
+.navbar-brand i {
+    font-size: 32px;
+}
+.navbar-brand h2 {
+    display: inline;
+}
+.txf-buscar {
+    margin-left: 10px;
+    max-height: 30px;
+    max-width: 150px;
+}
+
+/* Estilos de Inputs */
+label {
+    margin-bottom: .1rem !important;
+}
+form[name=frmCliente] textarea {
+    width: 100%;
+    height: 50px;
+}
+form[name=frmCatalogo] textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.bootstrap-select button,
+.bootstrap-select button:hover {
+    background-color: #FFFFFF !important;
+    border: 1px solid #ced4da !important;
+    color: #495057 !important;
+}
+
+.form-group.valid label {
+    color: rgb(80, 200, 80);
+}
+.form-group.valid input,
+.form-group.valid select,
+.form-group.valid textarea,
+.form-group.valid button {
+    border: 1px solid rgb(80, 200, 80) !important;
+}
+.form-group.error label {
+    color: rgb(200, 80, 80);
+}
+.form-group.error input,
+.form-group.error select,
+.form-group.error textarea,
+.form-group.error button {
+    border: 1px solid rgb(200, 80, 80) !important;
+}
+
+/* Otros estilos*/
+.ver {
+    display: initial !important;
+}
+
+.dn {
+    display: none !important;
+}
+
+red {
+    color: rgb(200, 80, 80);
+}
